@@ -14,8 +14,33 @@ This project analyzes NBA player performance, salaries, and college data to prov
 - **College Game Statistics (1980-2022)**
 
 ## 🧹 Data Wrangling
-- Filtered NBA player data for 2000-2019 and merged with college stats.
-- Created custom performance metrics and removed unnecessary columns.
+
+The data wrangling process involved preparing and merging multiple datasets to ensure consistency and accuracy for analysis. Key steps include:
+
+1. **Filtering NBA Player Data**:
+   - Filtered the **NBA player stats** for players who played in **Regular Seasons** between **2000 and 2019**.
+   - Removed outliers, including players with extremely high incomes (over $10,000/month) and those aged **80 or older**, based on the assumption that they have minimal future movement in product ownership.
+
+2. **Joining Datasets**:
+   - Created a **name-key** column to join the **NBA player stats dataset** with the **salary dataset** on player names.
+   - Combined the **college dataset** with the NBA dataset using common player names to analyze their performance both in college and in the NBA.
+
+3. **Custom Performance Metrics**:
+   - Created **custom performance metrics** based on key attributes such as points per game, assists per game, rebounds, and salary.
+   - Standardized these metrics to ensure comparability across players from different teams and seasons.
+
+4. **Removing Unnecessary Data**:
+   - Removed columns that were irrelevant to the analysis (e.g., excessive or redundant information).
+   - Focused on relevant performance indicators and salary data to build a final clean dataset.
+
+5. **Handling Missing Values**:
+   - Performed checks for missing data and filled or excluded missing values where necessary to avoid bias in the analysis.
+
+6. **Final Dataset**:
+   - The final dataset was a combination of **NBA performance stats**, **salary information**, and **college player data**, with custom performance metrics ready for analysis and segmentation.
+
+This thorough data wrangling process ensured that we had clean, actionable data to perform the clustering analysis and generate insights for NBA team recruitment and trade strategies.
+
 
 ## 🔍 Key Findings
 - **Team Change Impact**: Players who changed teams had higher salaries but lower consistency in performance.
