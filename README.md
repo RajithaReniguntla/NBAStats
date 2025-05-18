@@ -51,3 +51,6 @@ This thorough data wrangling process ensured that we had clean, actionable data 
 - Focus on player retention for better consistency and cost-effectiveness.
 - Recruit players with median KPI values: ~17 points (scorers), ~7 rebounds (rebounders).
 - Target colleges like **Kentucky**, **Duke**, and **UConn** for high-value players.
+
+## ❗️Disclaimer
+This project was developed as part of academic coursework and is shared here for educational and profolio purpose. Unauthorised use, reproduction or distribution is not permitted and may violate academic integrity policies.
