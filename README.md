@@ -1,4 +1,4 @@
-# NBA Talent Selection and Trades Insights for 2025
+# NBA Talent Selection and Trades Insights
 
 ## 📊 Overview
 This project analyzes NBA player performance, salaries, and college data to provide insights into team changes, player recruitment, and trade-offs. It aims to determine the impact of team changes on player performance and salary, and to establish benchmark metrics for recruiting future NBA players.
