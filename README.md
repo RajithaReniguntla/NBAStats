@@ -19,7 +19,7 @@ The data wrangling process involved preparing and merging multiple datasets to e
 
 1. **Filtering NBA Player Data**:
    - Filtered the **NBA player stats** for players who played in **Regular Seasons** between **2000 and 2019**.
-   - Removed outliers, including players with extremely high incomes (over $10,000/month) and those aged **80 or older**, based on the assumption that they have minimal future movement in product ownership.
+   - Removed outliers, including players with extremely high incomes based on the assumption that they are legendary players.
 
 2. **Joining Datasets**:
    - Created a **name-key** column to join the **NBA player stats dataset** with the **salary dataset** on player names.
